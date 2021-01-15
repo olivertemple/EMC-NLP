@@ -12,4 +12,4 @@ N = 10e4
 k=10
 
 sumlower,sumupper = removeStopWordPercent(N,k)
-print(str((sumlower/N)*100)+"% <= freq <= "+str((sumupper/N)*100))
+print(str((sumlower/N)*100)+"% ≤ freq ≤ "+str((sumupper/N)*100)+"%")
