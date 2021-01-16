@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 stop_words = stopwords.words('english')
 
 def basic_tokenizer(sentence):
+    punctuation = string.punctuation
     string2 = sentence.lower()
     newstring = ''
     for char in string2:
